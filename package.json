@@ -1,0 +1,23 @@
+{
+  "name": "legacyvault",
+  "version": "0.1.0",
+  "description": "Digital estate planning and family wealth management vault",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "NODE_ENV=production node server.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "keywords": [
+    "estate-planning",
+    "wealth-management",
+    "digital-vault",
+    "family",
+    "documents"
+  ],
+  "author": "LegacyVault",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  }
